@@ -3,114 +3,158 @@
 
 <head>
 
-	<meta charset="UTF-8"
+	<meta charset="UTF-8">
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0">
+    <meta content="Claudia Cornea's student Cyber Security portfolio at 
+    the University of Hertfordshire." name="description">
 		
-	<title>Claudia Cornea | Tehnical Interests</title>
+	<title>Technical interests | Claudia Cornea </title>
 	
-	<link rel="stylesheet" href="css/style.css"
+	<link rel="stylesheet" href="css/style.css">
+    <script defer="" src="js/script.js"></script>
 
 </head>
 
 <body>
-	
-	<header>
-		<nav aria-label = "Main navigation">
+
+    <a class ="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+    	
+	<header class="site-header">
+        <div class="header-inner">
+            <a aria-label="Claudia Cornea,homepage" class="brand" 
+            href="index.html" >
+                <span class="brand-mark">
+                    C 
+                    <span>
+                        .
+                    </span>
+                </span>
+                <span>
+                    Claudia Cornea
+                    <small>
+                        Cyber Security student
+                    </small>
+                </span>
+            </a>
+            <button aria-controls="main-nav" aria-expanded="false" 
+             class="menu-toggle" type="button">
+             &#9776;
+            <span>
+                Menu
+            </span>
+            </button>
+               
+            <nav aria-label = "Main navigation" id="main-nav" >
 			<a href = "index.html">Home Page</a>
 			<a href = "about.html"> About Me</a>
-			<a href = "interests.html"aria-current = "page"> Tehnical Interest</a>
+			<a href = "interests.html"aria-current = "page"> Technical interests</a>
 			<a href = "portfolio.html"> Portfolio</a>
-			<a href = "contact.html"> Contact Me</a>
+			<a href = "contact.html"> Contact </a>
 		</nav>
+        </div>
 	</header>
 	
-<main>
+<main id="main-content">
 	
-	<section>
+	<section class="page-heading wrap">
+        <p class="eyebrow">
+            THE TECH SIDE
+        </p>
 		
-		<h1>My Tehnical Interests </h1>
-		
-			<p>
-				As a BSc (Hons) Cyber Security student at the University of Hertfordshire,
-				I am interested inunderstandin how technology works and how computer systems
-				can be protected.
-			</p>
+		<h1>What makes me curious?</h1>
+        <p class="lead">
+            There's a lot to explore in computing.These are the subjects
+            I'm especially interested in as I learn more.
+        </p>
+            	
 	</section>
 	
-	<section>
+	<section class="wrap">
+    <div class="card-grid interest-grid">
+        <article class="card">
+            <span class="card-icon">
+                01
+            </span>
 	
 		<h2>Cyber Security</h2>
 		
 		<p>
-			Cybersecurity is one of my main technical interests.
-			I enjoy learning about cyber threats, vulnerabilities and the methods used to protect
-			computer systems and information.
+			Understanding digital threats, common vulnerabilities and how people and organisations can protect their information.
 		</p>
-		
+        <span class="pill">
+            Security awareness
+        </span>
+        </article>
+        
+        <article class= "card">
+            <span class="card-icon">
+                02
+            </span>
+        
+        <h2>Networks</h2>
+            
 		<p>
-			I am particulary interested in understanding how security measures can prevent 
-			unauthorised access and protect sensitive information.
+			Learning how devices communicate, what happens when data travels across a network and why network protection matters.
 		</p>
+        <span class="pill">
+            Networking
+        </span>
+        </article>
+        <article class="card">
+            <span class="card-icon">
+                03
+            </span>
+            <h2>
+                Programming
+            </h2>
+            <p>
+                Practising Python and learning to break a bigger problem into smaller, more manageable steps.
+            </p>
+            <span class="pill">
+                Python
+            </span>
+        </article>
+        
+        <article class="card">
+            <span class="card-icon">
+                04
+            </span>
+            <h2>
+                Web development
+            </h2>
+            <p>
+                Using HTML, CSS and JavaScript to make pages that look welcoming and work for different users.
+            </p>
+            <span class="pill">
+                HTML &middot; CSS &middot; JavaScript
+            </span>
+        </article>
+    </div>
 
 	</section>
 	
-	<section>
-	
-		<h2>Network Security</h2>
-		
-		<p>
-			I am interested in how computer networks comunicate and how they can be secured
-			against cyberattacks.
-		</p>
-		
-		<p>
-			I would like to develop my knowledge of network protocols, firewalls and secured
-			communication technologies.
-		
-		</p>
-		
-	</section>
-	
-	<section>
-		<h2>Programming</h2>
-		
-		<p>
-			Programming allows me to understand how software applications are designed and 
-			developed.
-		</p>
-		
-		<p>
-			I am developing my programing skills through university courseworke and practical
-			coding exercises.
-		</p>
-				
-	</section>
-	
-	<section>
-	
-		<h2>Web Development</h2>
-		
-		<p>
-			I am interested in designing websites that are accessible, easy to navigate and 
-			visually appealing.
-		</p>
-		
-		<p>
-			Developing this portfolio has helped me practice HTML,CSS and Java Script while 
-			learning about usability and accesability.
-		</p>
-		
-	</section>
-
-
 </main>
 
-<footer>
-	<p>&copy; 2026 Claudia Cornea</p>
+	<footer class="site-footer">
+        <div class="wrap footer-inner">
+            <p>
+                Made with curiosity, HTML, CSS & JavaScript
+                <span>
+                    &copy;  2026 Claudia Cornea
+                </span>
+            </p>
+         <a href="#main-content">
+            Back to top &uarr; </a>
+            
+        </div>
+		   
+            
+	</footer>
 	
-</footer>
-
-
 </body>
+
 </html>
+	

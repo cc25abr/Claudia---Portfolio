@@ -3,47 +3,153 @@
 
 <head>
 			<meta charset = "UTF-8">
-			<meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+			<meta  content = "width=device-width, initial-scale=1.0" name = "viewport">
+            <meta content="Claudia Cornea's student Cyber Security portfolio at the University of Hertfordshire." name = "description">
 
-			<title> Claudia Cornea | Cyber Security Potfolio</title>
+			<title> Home | Claudia Cornea</title>
 			
 			<link rel = "stylesheet" href = "css/style.css">
+            <script defer="" src="js/script.js"></script>
 </head>
 
 <body>	
 
-	<header>
+    
+        <a class ="skip-link" href ="#main-content">Skip to main content</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a aria-label="Claudia Cornea, homepage" class="brand" href="index.html">
+                    <span class="brand-mark">C<span>.</span></span>
+                    <span>Claudia Cornea<small>Cyber Security student</small></span>
+                </a>
+                <button aria-controls="main-nav" aria-expanded="false"
+                class="menu-toggle" type="button">&#9776;
+                <span>
+                    Menu
+                </span>
+                </button>
+                
 	
-		<nav aria - label = "Main navigation">
-			<a href = "index.html" aria-current = "page">Home Page</a>
-			<a href = "about.html"> About Me</a>
-			<a href = "interests.html"> Tehnical Interest</a>
-			<a href = "portfolio.html"> Portfolio</a>
-			<a href = "contact.html"> Contact Me</a>
-		</nav>
+                <nav aria-label = "Main navigation" id="main-nav">
+                    <a href = "index.html" aria-current = "page">Home</a>
+                    <a href = "about.html"> About me</a>
+                    <a href = "interests.html"> Technical interest</a>
+                    <a href = "portfolio.html"> Portfolio</a>
+                    <a href = "contact.html"> Contact</a>
+                </nav>
+            
+            </div>
 	
-	</header>
+        </header>
 	
-	<main class = "home">
-	
-				
-			<h1> Claudia Cornea </h1>
+	<main id = "main-content">
+        <section class="page-heading wrap">
+            
+            <p class="eyebrow">
+                HELLO, I'M CLAUDIA
+            </p>
+            	
+
+			<h1> 
+                Learning to build a safer digital world.
+            
+            </h1>
+            
+            <p class="lead">
+            
+                I'm Claudia, a second-year Cyber Security student at the University of Hertfordshire. This is my little corner of 
+                the internet, where I share what I'm learning and building.
+               
+            </p>
 			
-			<figure> 
-				<img src = "profile.jpg"
-				     alt = "Profile photograph of Claudia Cornea"
+        </section>
+        
+        <section class="wrap hero-layout">
+            <div class="hero-copy">
+            
+                <p class="handwritten">
+                    A work in progress - just like me
+                </p>
+                
+                <h2>
+                    Curious about code.
+                    <br/>
+                    Passionate about security.                    
+                    
+                </h2>
+                
+                <p>
+                    I enjoy figuring out how things work, finding solutions 
+                    when they don't, and learning something new along the 
+                    way. I built this website as part of my usability and 
+                    accessibility studies.
+                </p>
+                <div class="mini-stats">
+                    <div>
+                        <strong>
+                            Year 2
+                        </strong>
+                        
+                        <span>
+                            BSc Cyber Security
+                        </span>
+                    
+                    </div>
+                    
+                    <div>
+                        <strong>
+                             2
+                        </strong>
+                        
+                        <span>
+                            Featured projects
+                        </span>
+                    </div>
+                
+                    <div>
+                        <strong>
+                            Always
+                        </strong>
+                        
+                        <span>
+                            Learning
+                        </span>
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        
+			<figure class="photo-card"> 
+				<img alt = "Profile photograph of Claudia Cornea"
 					 class = "animated-photo"
-					 width = "350"	
-					 height = "500"
+                     src = "images/profile.jpg"
+					 width = "398"	
+					 height = "600">
+                <figcaption>
+                    Hi, nice to meet you! ☺
+                </figcaption>
 			</figure>
-			
-	</main>
-			
-			
 	
-	<footer>
-		<p>&copy;  2026 Claudia Cornea </p>
+		</section>
+        
+	</main>			
 	
+	<footer class="site-footer">
+        <div class="wrap footer-inner">
+            <p>
+                Made with curiosity, HTML, CSS & JavaScript
+                <span>
+                    &copy;  2026 Claudia Cornea
+                </span>
+            </p>
+         <a href="#main-content">
+            Back to top &uarr; </a>
+            
+        </div>
+		   
+            
 	</footer>
 	
 </body>

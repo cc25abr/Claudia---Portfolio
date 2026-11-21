@@ -3,80 +3,155 @@
 
 <head>
 	<meta charset = "UTF-8">
-	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta content = "width=device-width, initial-scale=1.0" name = "viewport">
+    <meta content="Claudia Cornea's student Cyber Security portfolio at the
+    University of Hertfordshire." name="description">
 
-	<title> Claudia Cornea | About Me </title>
+	<title>  About Me| Claudia Cornea </title>
 	
 	<link rel = "stylesheet" href = "css/style.css">
+    <script defer="" src="js/script.js"></script>
 	
 </head>
 								
 <body>
-	<header>
-		
-		
-		<nav aria-label = "Main navigation">
-			<a href = "index.html">Home Page</a>
-			<a href = "about.html"aria-current = "page"> About Me</a>
-			<a href = "interests.html"> Tehnical Interest</a>
+
+    <a class="skip-link" href="#main-content">
+    Skip to main content </a>
+    
+	<header class="site-header">
+        <div class="header-inner">
+            <a aria-label="Claudia Cornea, homepage" class="brand" 
+            href="index.html">
+                <span class="brand-mark">
+                    C
+                    <span>
+                    .
+                    </span>
+                </span>
+                <span>
+                    Claudia Cornea
+                    <small>
+                        Cyber Security student
+                    </small>
+                </span>
+            
+            </a>
+            <button aria-controls="main-nav" aria-expanded="false" 
+            class="menu-toggle" type="button">
+            &#9776;
+            <span>
+                Menu
+            </span>
+            
+            </button>
+       
+            <nav aria-label = "Main navigation" id="main-nav">
+			<a href = "index.html">Home</a>
+			<a href = "about.html"aria-current = "page"> About me</a>
+			<a href = "interests.html"> Tehnical interests</a>
 			<a href = "portfolio.html"> Portfolio</a>
-			<a href = "contact.html"> Contact Me</a>
+			<a href = "contact.html"> Contact </a>
 		</nav>
+       </div>
 	</header>
 	
-	<main>
-		<section>
+	<main id="main-content">
+		<section class="page-heading wrap">
+        
+            <p class="eyebrow">
+                A LITTLE INTRODUCTION
+            </p>
 		
-			<h1> About Me </h1>
+			<h1> Hi, I'm Claudia. </h1>
 			
 					
-			<p>
-			Welcome to my protfolio website.
-			My name is Claudia Cornea, and I am 
-			a second year BSc (Hons) Cyber Security 
-			student at the University of Hertfordshire .
+			<p class="lead">
+                I'm still discovering which part of cyber security excites me
+                most, and that's what makes being a student so interesting.
 			</p>
+        </section>
+        
+		<section class="wrap content-grid">
+            <article class="paper">
+                <h2>
+                    My story so far
+                </h2>
+                
+                <p>
+                    I'm in my second year of a BSc(Hons) Cyber Security degree at the University of Hertfordshire. I wanted to study something that would challenge me, help me think logically and give me useful skills for a world that depends more and more on technology.
+                </p>
+                
+                <p>
+                    Some topics click immediately. Others take a few attempts, a lot of notes and a little patience! I've learned that solving a difficult problem is one of the most satisfying parts of studying computing.
+                </p>
+            
+                <p>
+                    This website is part of that journey. It started as separate HTML pages in Notepad++ and has gradually become a place where I can show my progress.
+                </p>
+                
+                <h2>
+                    Outside the code
+                </h2>
+                
+                <p>
+                    I like projects that connect technology to real people. That's one reason I enjoyed our EcoTrace project : it made us think about the wider impact of AI, not just how to build an application.
+                </p>
+            </article>
+         <aside class="note">
+         
+            <p class="handwritten">
+                A few quick facts &#9998;
+            </p>
+            <dl>
+                <dt>
+                    Currently studying
+                </dt>
+                <dd>
+                    BSc (Hons) Cyber Security
+                </dd>
+                <dt>
+                    University
+                </dt>
+                <dd>
+                    University of Hertfordshire
+                </dd>
+                <dt>
+                    Current year
+                </dt>
+                <dd>
+                    Second year
+                </dd>
+                <dt>
+                    Current challenge
+                </dt>
+                <dd>
+                    Learning JavaScript and accessible design
+                </dd>
+                <dt>
+                    Favourite part of projects
+                </dt>
+                <dd>
+                    Seeing an idea become something real
+                </dd>
+            </dl>
+         </aside>
+        </section>
 			
-			<p>
-			 I am interested in cybersecurity, programing, network security and
-			 digital tehnologies. 
-			 
-			</p>
-			
-			<p>
-			 
-			 This website presents my tehnical interests, 
-			 academic projects and profesional development.
-	
-			</p>
-			
-		</section>
-		
-		
-		
-		
-		<section>
-			<h2> My Education </h2>
-			<p>
-				University : University of Hertforshire
-			</p>
-			
-			<p>
-				Degree : BSc (Hons) Cyber Security
-			</p>
-			
-			<p>
-				Year of study : Year 2
-			</p>
-			
-		</section>
-	
-	
-	
 	</main>
 	
-	<footer>
-	<p>&copy; 2026 Claudia Cornea </p>
+	<footer class="site-footer">
+        <div class="wrap footer-inner">
+	<p>
+        Made with curiosity, HTML,CSS & JavaScript.
+        <span>
+            &copy; 2026 Claudia Cornea 
+        </span>
+    </p>
+    <a href="#main-content">
+        Back to top &uarr;
+    </a>
+    </div>
 	</footer>
 
 </body>
