@@ -624,3 +624,40 @@ nav{
 [hidden] {
     display:none!important
 }
+
+#contact-form {
+    display:flex;
+    flex-direction : column;
+    gap:12px;
+    margin-top:20px
+}
+
+#contact-form label {
+    font-weight :bold
+}
+
+#contact-form input,
+#contact-form textarea{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inhertit;
+    font-size: 16px;
+    box-sizing: border-box
+}
+
+#contact-form textarea {
+    height:150px;
+    resize: vertical
+}
+
+#contact-form button {
+    width: 120px;
+    padding: 12px;
+    background-color: #7445b7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer
+}

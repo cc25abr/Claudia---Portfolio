@@ -34,4 +34,21 @@ filterButtons.forEach(button => {
             filterStatus.textContent = `${visible} project${visible === 1 ? '' : 's'} shown.`;
         }
     });
+   
 });
+
+// Contact form: display messge when the form is submited.
+const contactForm= document.querySelector('#contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', function(event){
+        event.preventDefault();
+        const formMessage = document.querySelector('#form-message');
+        if (formMessage) {
+            
+            formMessage.textContent = 
+                'Thank you! This is a demonstration form, so your message has not been sent.';
+        }
+        contactForm.reset();
+        
+    });
+}
